@@ -1,0 +1,21 @@
+{
+  "name": "incognito_maker",
+  "version": "1.0.0",
+  "description": "Web application that allows the users to create aliases for URLs",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joel Deon Dsouza",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.0",
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.20.1"
+  }
+}
